@@ -1,0 +1,31 @@
+.grid {
+	width: 480px;
+	height: 480px;
+	display: flex;
+	flex-wrap: wrap;
+	border-style: solid;
+	border-color: black;
+	background-image: url("grey7.png");
+}
+
+.grid div {
+	width: 48px;
+	height: 48px;
+}
+
+.snake {
+	background-image: url("snake2.jpg");
+}
+
+.apple {
+	background-image: url("grey5.png");
+}
+
+.roundBorders {
+	border-radius: 5px;
+}
+
+.rotate {
+	-ms-transform: rotate(90deg); /* IE 9 */
+	transform: rotate(90deg);
+}
